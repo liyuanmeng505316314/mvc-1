@@ -1,0 +1,30 @@
+
+#app2{
+    width: 49vw ;
+    height: 49vh ; 
+    background-color: royalblue;
+}
+
+
+.tabBar{
+    margin: 1px;
+    margin-left: 25px;
+    display: flex;
+}
+.tabBar > li{
+    width: 50%;
+
+}
+.tabContent {
+    margin: 1px;
+    margin-left: 25px;
+    display: flex;
+}
+/*这里涉及一个抽象思想，样式与行为分离，即CSS只负责样式，JS只负责功能*/
+.tabContent > li{
+    width: 50%;
+    visibility: hidden;
+}
+.tabContent > li.active{
+    visibility: visible;
+}

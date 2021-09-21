@@ -1,0 +1,15 @@
+#app1{
+    width: 49vw ;
+    height: 49vh ;
+    /* 滚动条导致的*/ 
+    background-color: bisque;
+}
+#app1 .output{
+     margin: 1px;
+    }
+
+#app1 .actions{
+    margin: 1px;
+    }
+
+    
